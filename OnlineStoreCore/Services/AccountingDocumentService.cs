@@ -18,7 +18,6 @@ namespace OnlineStoreCore.Services
 
         public string CreateDocumentNumber()
         {
-            int test = 0;
             return DateTime.Now.ToString("yyyyMMdd") +
                    DateTime.Now.Hour.ToString() +
                    DateTime.Now.Minute.ToString() +
